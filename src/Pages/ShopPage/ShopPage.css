@@ -1,0 +1,22 @@
+.shop-card{
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+.shop-card img{
+  width: 100%;
+  background: #f6f6f6;
+}
+.shop-card-grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding: 0px 100px;
+  gap: 20px;
+}
+
+.shop-card button{
+  display: none;
+  width: 100%;
+  height: 40px;
+  background-color: #010101;
+  color: white;
+}

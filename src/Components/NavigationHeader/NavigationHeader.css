@@ -1,0 +1,88 @@
+.navigation-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  background: #f9f9f9;
+}
+.nav-block{
+  display: flex;
+}
+.navigation-menu-main{
+  display: flex;
+  gap: 20px;
+  flex-basis: 300px;
+}
+
+.navigation-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-cart-logo{
+  padding: 15px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.navigation-cart-logo:hover{
+  background: #f0f0f0;
+}
+
+.filters-toggle{
+  display: flex;
+  align-items: center;
+}
+
+.cart-value{
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  padding: 3px 5px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 10px;
+}
+
+.signup-button{
+  background-color: black;
+  color: white;
+}
+
+.signin-button{
+  background-color: whitesmoke;
+  color: gray;
+}
+
+.signin-button:hover{
+  background-color: white;
+}
+
+.nav-button{
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  width: 70px;
+}
+
+.nav-button{
+  cursor: pointer;
+}
+
+.search-bar input{
+  height: 40px;
+  border: 1px solid gray;
+  padding-left: 20px;
+  outline: none;
+}
+
+.filters-toggle button{
+  height: 43px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 1px;
+}

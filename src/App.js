@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import HomePage from './Pages/HomePage/HomePage';
+import {BrowserRouter, Routes, Route} from 'react-router-dom' 
+import ShopPage from './Pages/ShopPage/ShopPage';
+import FeaturedPage from './Pages/FeaturedPage/FeaturedPage';
+import RecomendedPage from './Pages/RecomendedPage/RecomendedPage';
+import NavigationHeader from './Components/NavigationHeader/NavigationHeader';
+import DragDrop from "./Components/Drag and Drop/DragDrop.jsx"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>  
+      {/* <BrowserRouter>
+      <NavigationHeader />
+        <Routes>
+          <Route path='/' element = {<HomePage />} />
+          <Route path='/shop' element = {<ShopPage />} />
+          <Route path='/featured' element = {<FeaturedPage />} />
+          <Route path='/recomended' element = {<RecomendedPage />} />
+        </Routes>
+      </BrowserRouter> */}
+      <DragDrop />
     </div>
   );
 }
